@@ -26,6 +26,13 @@
             {
                 Console.WriteLine("Fall Term");
             }
+            Console.Write("Enter Age: ");
+            int age = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Are you currently enrolled? (yes/no)");
+            string studentorno = Console.ReadLine();
+            bool isEnrolled = (studentorno == "yes");
+
 		}
     }
 }
