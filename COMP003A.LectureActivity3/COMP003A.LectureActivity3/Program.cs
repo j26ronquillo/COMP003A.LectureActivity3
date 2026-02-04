@@ -33,9 +33,9 @@ namespace COMP003A.LectureActivity3
             string studentorno = Console.ReadLine();
             bool isEnrolled = (studentorno == "yes");
 
-            Console.Write("Do you have a valid student ID?: ");
+            Console.Write("Do you have a valid student ID? (yes/no): ");
             string cardIDorno = Console.ReadLine();
-            bool hasStudentID = (studentorno == "yes");
+            bool hasStudentID = (cardIDorno == "yes");
 
             if (age >= 18) 
             {
